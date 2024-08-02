@@ -5,6 +5,8 @@ using UnityEngine;
 public class Invader : MonoBehaviour
 {   private SpriteRenderer spriteRenderer;
     
+    public.System.Action killed;
+
     public void Awake()
     {
 
