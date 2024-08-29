@@ -1,0 +1,3 @@
+Resumo: O num sei é um jogo onde o Gengar tem que absorve almas perdidas pelo mapa,
+Personagem: Gengar
+Inimigos: Obstáculos Dark Void, e Barrier e  que derrotam o gengar imediatamente menos barrier
