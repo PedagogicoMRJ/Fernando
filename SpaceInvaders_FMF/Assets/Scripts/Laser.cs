@@ -8,6 +8,8 @@ public class Laser : MonoBehaviour
 
     public float speed;
 
+    public AudioSource music;
+
     public System.Action destroyed;
     void Update()
     {
@@ -18,6 +20,8 @@ public class Laser : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        music.Play();
+        
         if (this.destroyed != null)
         {
             this.destroyed.Invoke();

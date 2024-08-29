@@ -10,7 +10,7 @@ public class Spaceeship : MonoBehaviour
 
     public float speed;
 
-    void update()
+    void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
